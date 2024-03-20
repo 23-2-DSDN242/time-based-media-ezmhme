@@ -101,12 +101,12 @@ function draw_clock(obj) {
     circle(x, y, d)
   }
 
-  // for (let i = 0; i < 3; i++){
-  //   let x = i * 75 + circleposx2
-  //   let y = 80
-  //   let d = 60
-  //   circle(x, y, d)
-  // }
+  for (let i = 0; i < 3; i++){
+    let x = i * 75 + circleposx2
+    let y = 80
+    let d = 60
+    circle(x, y, d)
+  }
 
   // noFill();
   // stroke(255,255,0);
